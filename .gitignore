@@ -1,0 +1,30 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.aps
+
+# Build output
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+Win32/
+ARM/
+ARM64/
+ipch/
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.log
+*.tlog
+Generated Files/
+
+# NuGet (restored from packages.config)
+packages/
+
+# Signing keys
+*.pfx
