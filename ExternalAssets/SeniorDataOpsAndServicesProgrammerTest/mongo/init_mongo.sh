@@ -1,0 +1,1 @@
+mongoimport --db local --collection logging --file /docker-entrypoint-initdb.d/logging.json --jsonArray
