@@ -32,3 +32,6 @@ packages/
 # CMake build output
 build/
 out/
+
+# Python
+__pycache__/
