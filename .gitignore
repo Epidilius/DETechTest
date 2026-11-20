@@ -28,3 +28,7 @@ packages/
 
 # Signing keys
 *.pfx
+
+# CMake build output
+build/
+out/
