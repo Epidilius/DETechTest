@@ -1,0 +1,58 @@
+# House style for Part A.
+#   - Braces go on their own lines, and every if/else/for/while body has them.
+#   - One statement per line: no one-line functions, ifs, loops, lambdas, or case bodies.
+#   - A signature, call, or expression is never broken across lines, however long it gets.
+BasedOnStyle: Microsoft
+Language: Cpp
+Standard: c++20
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 100000
+ReflowComments: false
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterClass: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterStruct: true
+  AfterUnion: true
+  AfterExternBlock: true
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeLambdaBody: true
+  BeforeWhile: false
+  SplitEmptyFunction: true
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: true
+InsertBraces: true
+
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: None
+AllowShortLoopsOnASingleLine: false
+AllowShortCompoundRequirementOnASingleLine: true
+
+LambdaBodyIndentation: OuterScope
+AlwaysBreakTemplateDeclarations: Yes
+RequiresClausePosition: WithPreceding
+BreakConstructorInitializers: AfterColon
+PackConstructorInitializers: BinPack
+
+AccessModifierOffset: -4
+IndentCaseLabels: true
+NamespaceIndentation: All
+PointerAlignment: Left
+SpaceAfterTemplateKeyword: true
+MaxEmptyLinesToKeep: 1
+KeepEmptyLinesAtTheStartOfBlocks: false
+SortIncludes: CaseSensitive
+IncludeBlocks: Preserve
