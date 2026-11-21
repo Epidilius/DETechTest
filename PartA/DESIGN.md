@@ -117,7 +117,7 @@ The game must never pay for telemetry, so failure is the tracker's to handle.
 - **One compiler.** Built and tested with MSVC 19.38 only.
 - **It is both over- and under-engineered.** I wanted to impress, so I tried to maximize my use of the alloted time. As this list of weaknesses shows, it is also lacking many features despite that.
 - **The naming convention is my own.** I would have preferred to follow an existing style. I like the convention I followed, but following existing style takes precedence.
-- **The unnamed namespaces in `main.cpp` and the tests.** I understand that they remove external linkage, so only the one file can use what is inside, but in general I don't like them. That may be a holdover from working in C# recently. In practice, most of the data in these namespaces would come from a file or a database.
+- **The unnamed namespaces.** I understand that they remove external linkage, so only the one file can use what is inside, but in general I don't like them. That may be a holdover from working in C# recently. In practice, most of the data in these namespaces would come from a file or a database.
 - **Config does not come from a database.** The settings in `DispatcherConfig` are defaults written in the code, which the caller can change.
 
 ## What was Verified
